@@ -1,4 +1,4 @@
-/* main {
+main {
   font-family: sans-serif;
   padding: 20px;
   margin: auto;
@@ -38,60 +38,4 @@ p {
     margin-right: 5%;    
     height: auto;        
 }
- */
-main {
-  font-family: sans-serif;
-  padding: 20px;
-  margin: auto;
-}
 
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 25px;
-  max-width: 100%; /* Ensure images are responsive */
-  height: auto; /* Maintain aspect ratio */
-}
-
-head {
-  text-align: center;
-}
-
-body {
-  background-color: bisque;
-}
-
-p {
-  text-align: center;
-  font-family: sans-serif;
-  padding: 10px; /* Reduced padding for mobile */
-  margin: auto;
-}
-
-.link {
-  display: flex; /* Use flexbox for better alignment */
-  justify-content: center; /* Center the links */
-  flex-wrap: wrap; /* Allow wrapping on smaller screens */
-  margin-top: 20px; /* Add some space above the links */
-}
-
-.link img {
-  width: 45%; /* Adjust width for images */
-  max-width: 100px; /* Set a maximum width for images */
-  margin-right: 5%; /* Add space between the images */
-  height: auto; /* Maintain aspect ratio */
-}
-
-/* Media Queries for Mobile Devices */
-@media (max-width: 600px) {
-  p {
-    padding: 5px; /* Reduce padding further for small screens */
-  }
-
-  .link img {
-    width: 80%; /* Increase image size on smaller screens */
-    margin-right: 0; /* Remove right margin to stack images vertically */
-    margin-bottom: 10px; /* Add space below each image */
-  }
-}
